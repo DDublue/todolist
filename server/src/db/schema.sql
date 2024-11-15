@@ -1,0 +1,6 @@
+DROP TABLE todo IF NOT EXISTS;
+
+CREATE TABLE todo(
+  todo_id SERIAL PRIMARY KEY,
+  description VARCHAR(255)
+);
